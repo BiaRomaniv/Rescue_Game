@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>rescue</title>
+
+    <link href="./src/styles/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="container">
+        <div id="backgroundGame">
+            <div id="initial" onclick="start()">
+                <h1> rescue </h1>
+                <p>Utilize a tecla ↑ para movimentar o helicóptero para cima, a tecla ↓ para movimentar o helicóptero para baixo e a tecla D para atirar.</p>
+                <p> Clique aqui para iniciar!! </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sons do game ! -->
+    <audio src="./src/assets/audios/sound.mp3" preload="auto" id="soundShoot"></audio>
+    <audio src="./src/assets/audios/explosion.mp3" preload="auto" id="soundExplosion"></audio>
+    <audio src="./src/assets/audios/music_background.mp3" preload="auto" id="music"></audio>
+    <audio src="./src/assets/audios/gameover.mp3" preload="auto" id="soundGameover"></audio>
+    <audio src="./src/assets/audios/lost.mp3" preload="auto" id="soundLost"></audio>	
+    <audio src="./src/assets/audios/rescue.mp3" preload="auto" id="soundrescue"></audio>
+
+    <script type="text/javascript" src="./src/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="./src/scripts/main.js"></script>
+    <script type="text/javascript" src="./src/js/jquery-collision.min.js"></script>
+</body>
+<footer>
+    Made by <a href="http://www.github.com/BiaRomaniv"> Bia Romaniv </a> </br>
+    game desenvolvido no curso DIO - Órbi Developer Construindo o seu primeiro game de naves
+</footer>
+</html>
